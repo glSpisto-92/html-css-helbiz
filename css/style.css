@@ -40,6 +40,12 @@ a:hover{
 .header_top{
   line-height: 70px;
   height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: #fff;
 }
 
 .main_nav li{
@@ -72,7 +78,7 @@ a:hover{
 }
 /* hero */
 .hero{
-  margin: 70px 0;
+  margin: 120px 0;
 }
 .hero_img img{
   width: 100%;
