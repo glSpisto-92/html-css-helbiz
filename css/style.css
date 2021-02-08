@@ -25,6 +25,13 @@ a:hover{
   margin: 0;
 }
 
+.hamburger{
+  background: transparent;
+}
+.hamburger i:hover{
+  color: #000;
+}
+
 /* header */
 .logo img{
   height: 14px;
@@ -149,6 +156,7 @@ a:hover{
   width: 100%;
 }
 
+/* sezione carpisa go */
 
 /* RESPONSIVE */
 @media screen and (max-width: 992px){
