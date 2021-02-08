@@ -19,31 +19,50 @@
   <!-- intestazione pagina (nav/hero) -->
   <header>
     <!-- logo helbiz -->
-    <div class="container">
-      <div class="row">
-        <div class="nav_top">
+    <div class="header_top">
+      <div class="container">
+        <div class="row">
           <div class="col-xs-2">
-            <img class="logo" src="img/logo.svg" alt="">
+            <div class="logo">
+              <img src="img/logo.svg" alt="">
+            </div>
           </div>
           <!-- nav-bar e login top -->
           <div class="col-xs-10 text-right">
-            <ul class="list-inline">
-              <li><a href="#">mobility</a></li>
-              <li><a href="#">helbiz kitchen</a></li>
-              <li><a href="#">my helbiz</a></li>
-              <li><a href="#">unlimited</a></li>
-              <li><a href="#">about</a></li>
-              <button class="lang" type="button" name="button">eng <i class="fas fa-angle-down"></i></button>
-              <button class="btn btn_primary" type="button" name="button">Login</button>
-            </ul>
+            <nav class="main_nav visible-md-inline-block visible-lg-inline-block">
+              <ul class="list-inline">
+                <li><a href="#">mobility</a></li>
+                <li><a href="#">helbiz kitchen</a></li>
+                <li><a href="#">my helbiz</a></li>
+                <li><a href="#">unlimited</a></li>
+                <li><a href="#">about</a></li>
+              </ul>
+            </nav>
+            <nav class="second_nav visible-md-inline-block visible-lg-inline-block">
+              <ul class="list-inline">
+                <li><button class="lang" type="button" name="button">eng <i class="fas fa-angle-down"></i></button></li>
+                <li><button class="btn btn_primary" type="button" name="button">Login</button></li>
+                <button class="btn hidden-md hidden-lg" type="button" name="button"></button>
+              </ul>
+            </nav>
           </div>
         </div>
-        <!-- logo helbiz -->
-
+      </div>
+    </div>
+    <!-- hero/jumbotron -->
+    <div class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <h1>Mobility of tomorrow</h1>
+            <div class="hero_img">
+              <img src="img/hero.jpg" alt="">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </header>
-
   <!-- corpo della pagina (section varie) -->
   <main>
 

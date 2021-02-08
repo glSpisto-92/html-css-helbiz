@@ -3,7 +3,10 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-
+h1{
+  font-size: 100px;
+  font-weight: bold;
+}
 /* mix */
 .btn_primary{
   border-radius: 0;
@@ -18,28 +21,32 @@ body{
 }
 
 /* header */
-.logo{
+.logo img{
   height: 14px;
 }
 
-.nav_top{
+.header_top{
   line-height: 70px;
   height: 70px;
 }
 
-.nav_top li{
+.main_nav li{
   text-transform: uppercase;
   margin-left: 20px;
 }
 
-.nav_top a, .lang{
+.main_nav a, .lang{
   color:  #000;
   font-size: 11px;
   font-weight: 600;
 }
 
-.nav_top a:hover{
+.main_nav a:hover{
   text-decoration: none;
+}
+
+.second_nav button:hover{
+  color: #fff;
 }
 
 .lang{
@@ -52,6 +59,26 @@ body{
   line-height: normal;
 }
 /* hero */
+.hero{
+  margin: 70px 0;
+}
+.hero_img img{
+  width: 100%;
+}
 
 
 /* SECTIONS */
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 992px){
+  h1{
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  h1{
+    font-size: 60px;
+  }
+}
