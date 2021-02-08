@@ -173,4 +173,8 @@ a:hover{
   .col_2{
     left: auto;
   }
+
+  .col_2 img{
+    max-width: 300px;
+  }
 }
