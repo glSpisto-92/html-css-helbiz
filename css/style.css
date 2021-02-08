@@ -72,6 +72,8 @@ a:hover{
 }
 
 /* SECTIONS */
+
+/* sezione example bikes */
 .product{
   background: #fafafa;
   padding: 80px 15px 40px 15px;
@@ -96,6 +98,58 @@ a:hover{
   display: block;
 }
 
+/* sezione old man e iphone */
+.container_mini{
+  max-width: 900px;
+  margin: auto;
+}
+
+.col_0{
+  display: inline-block;
+  width: calc((100% / 3) - 4px);
+  position: relative;
+}
+
+.col_1{
+  right: calc(100% / 3);
+}
+
+.col_1 h2{
+  font-size:34px;
+  font-weight: bold;
+  padding: 0px 70px 100px 0;
+}
+
+.col_2{
+  left: calc(100% / 3);
+}
+
+.col_2 img{
+  width: 100%;
+}
+
+.col_1, .col_3{
+  vertical-align: bottom;
+}
+
+.col_3 p{
+  padding: 0 0 100px 100px;
+}
+
+.colums{
+  padding-top: 200px;
+}
+
+.old_man{
+  background-image: url('../img/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: absolute;
+  width: 100%;
+}
+
+
 /* RESPONSIVE */
 @media screen and (max-width: 992px){
   h1{
@@ -106,5 +160,17 @@ a:hover{
 @media screen and (max-width: 768px){
   h1{
     font-size: 60px;
+  }
+
+  .col_0{
+    width: 100%;
+  }
+
+  .col_1{
+    right: auto;
+  }
+
+  .col_2{
+    left: auto;
   }
 }
